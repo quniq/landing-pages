@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.2"
   },
   
-  "homepage": "https://github.com/quniq/landing-pages",
+  "homepage": "https://quniq.github.io/landing-pages",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
