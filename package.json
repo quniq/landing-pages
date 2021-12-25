@@ -17,7 +17,7 @@
     "react-slick": "^0.28.1",
     "web-vitals": "^2.1.2"
   },
-  "homepage": "https://berrywise.ai",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
