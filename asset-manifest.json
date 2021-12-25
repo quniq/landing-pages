@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/quniq/landing-pages/static/css/main.37ba1e5d.css",
+    "main.js": "/quniq/landing-pages/static/js/main.0618a8c3.js",
+    "static/media/peeps.svg": "/quniq/landing-pages/static/media/peeps.e28433a83cf293ce013eff65fc7727c0.svg",
+    "static/media/BeVietnam-Regular.ttf": "/quniq/landing-pages/static/media/BeVietnam-Regular.dbb2b33c82d881ea9c97.ttf",
+    "static/media/graphD.png": "/quniq/landing-pages/static/media/graphD.4252d2a37466839b3bae.png",
+    "static/media/peepThree.png": "/quniq/landing-pages/static/media/peepThree.2134fdb3f65252dc461b.png",
+    "static/media/peepTWO.png": "/quniq/landing-pages/static/media/peepTWO.b17747eef5bf2098243a.png",
+    "static/media/peepFour.png": "/quniq/landing-pages/static/media/peepFour.d1886ab637fc634b05ef.png",
+    "static/media/peepStanding.png": "/quniq/landing-pages/static/media/peepStanding.e5744991d95233ae1ab6.png",
+    "static/media/LogoW.svg": "/quniq/landing-pages/static/media/LogoW.42719ce45a1e5fda0b86206eaddd5ab5.svg",
+    "index.html": "/quniq/landing-pages/index.html",
+    "main.37ba1e5d.css.map": "/quniq/landing-pages/static/css/main.37ba1e5d.css.map",
+    "main.0618a8c3.js.map": "/quniq/landing-pages/static/js/main.0618a8c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37ba1e5d.css",
+    "static/js/main.0618a8c3.js"
+  ]
+}
