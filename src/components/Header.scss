@@ -1,0 +1,115 @@
+.headerMain {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    max-width: 1440px;
+
+
+    .headerMain-Con {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // justify-content: center;
+        // background-color: blue;
+        width: 100%;
+        padding: 0 160px;
+        // padding-top: 20px;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        position: relative;
+
+        .headerMain-Con-left {}
+
+        .headerMain-Con-mid {
+            // position: relative;
+            // right: -25px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        // background-color: red;
+                        padding: 10px 12px;
+                        margin: 0 4px;
+                        color: #230B59;
+                        font-family: 'Be Vietnam', sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 18px;
+                        /* identical to box height, or 129% */
+
+
+                        letter-spacing: 0.2px;
+                        color: #230B59;
+                        text-decoration: none;
+                        // background-color: red;
+                        position: relative;
+
+                        &:after {
+                            content: " ";
+                            width: 0px;
+                            background-color: rebeccapurple;
+                            height: 2px;
+                            position: absolute;
+                            bottom: 3px;
+                            left: 0;
+                            transition: all 0.5s ease;
+                        }
+
+                        &:hover {
+
+                            &:after {
+                                width: 100%;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .headerMain-Con-right {
+            button {
+                // margin-top: 15px;
+                // width: 109px;
+                height: 42px;
+                background: #230B59;
+                border-radius: 10px;
+                border: none;
+                //text formating
+                font-family: 'Be Vietnam', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 18px;
+                /* identical to box height, or 100% */
+                /* Light / White */
+                color: #FFFFFF;
+                letter-spacing: 0.3px;
+                transition: all 0.25s ease;
+                padding: 12px 18px;
+
+                &:first-child {
+                    margin-right: 20px;
+                }
+
+                &:hover {
+                    background: #633bc0;
+                    cursor: pointer;
+
+                }
+            }
+        }
+    }
+}

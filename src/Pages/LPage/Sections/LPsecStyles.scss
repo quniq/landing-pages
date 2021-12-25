@@ -1,0 +1,664 @@
+//For Sec1
+.LPSoneMAIN {
+    padding: 0 160px;
+    // width: calc(100vw - 320px);
+    height: 585px;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+
+    .LPSone-Left {
+        // background-color: red;
+        width: 50%;
+
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-family: Urbanist;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 56px;
+            /* or 127% */
+
+            letter-spacing: 1.5px;
+
+            color: #230B59;
+            width: 480px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin: 0;
+            padding: 0;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            font-family: Be Vietnam;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+
+            color: #231F20;
+            width: 410px;
+        }
+
+        .gsBTN {
+
+            width: 139px;
+            height: 42px;
+            background: #230B59;
+            border-radius: 10px;
+            border: none;
+            //text formating
+            font-family: 'Be Vietnam', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 18px;
+            /* identical to box height, or 100% */
+            /* Light / White */
+            color: #FFFFFF;
+            letter-spacing: 0.3px;
+            transition: all 0.25s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+
+            &:hover {
+                background: #633bc0;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .LPSone-Right {
+        width: 50%;
+        height: 100%;
+        // background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // position: relative;
+
+        .SliderMCON {
+            // display: flex;
+            width: 100%;
+            // overflow: hidden;
+            // background-color: red;
+            // position: relative;
+            // height: 100%;
+        }
+
+        .LPSone-Right-L {
+            h1 {
+                font-family: Be Vietnam;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 32px;
+
+                color: #230B59;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 20px;
+
+            }
+
+            .LPSone-Right-L-Tcon {
+                margin-bottom: 21px;
+
+                h2 {
+                    font-family: Sora;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+
+                    color: #231F20;
+                    margin: 0;
+                    padding: 0;
+                }
+
+
+
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                    font-family: Sora;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 23px;
+
+                    color: #230B59;
+                }
+            }
+        }
+
+        .SliderObjCon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: green;
+            // width: 100%;
+            // // display: none;
+            // position: absolute;
+            // top: 50%;
+            // left: 50%;
+            // transform: translate(-50%, -50%);
+
+
+            &.S1 {
+                // display: none;
+            }
+        }
+    }
+}
+
+//For Sec2
+.LPStwoMAIN {
+    padding: 0 160px;
+    display: flex;
+    margin-bottom: 130px;
+
+    .LPStwoMAIN-L {
+        width: 50%;
+
+
+        h1 {
+            font-family: Urbanist;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 18px;
+            /* or 64% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #230B59;
+        }
+
+        h2 {
+            margin-top: 30px;
+            width: 350px;
+            font-family: Be Vietnam;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            /* or 122% */
+
+            display: flex;
+            align-items: center;
+
+            color: #231F20;
+        }
+
+        a {
+            margin-top: 30px;
+            font-family: Be Vietnam;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 18px;
+            /* or 112% */
+
+            display: flex;
+            align-items: center;
+
+            color: #0B47F2;
+            text-decoration: none;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .LPStwoMAIN-R {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        // background-color: red;
+        .Peep-sitting {
+            position: absolute;
+            bottom: -130px;
+            right: 0;
+        }
+
+        .LPStwoMAIN-R-Card {
+            margin-bottom: 40px;
+            display: flex;
+
+            img {
+                position: relative;
+                left: -17px;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            h1 {
+
+                font-family: Urbanist;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 18px;
+                /* or 100% */
+
+                display: flex;
+                align-items: center;
+
+                color: #230B59;
+
+            }
+
+            h2 {
+                width: 270px;
+                font-family: Be Vietnam;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                /* or 129% */
+
+
+                color: #231F20;
+            }
+
+            a {
+                font-family: Be Vietnam;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                /* or 129% */
+
+                display: flex;
+                align-items: center;
+
+                color: #0B47F2;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+//For Sec3
+.LPSthreeMAIN {
+    margin-bottom: 40px;
+
+    .LPSthree-Top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-family: Urbanist;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 34px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #230B59;
+        }
+
+        h3 {
+
+            font-family: Be Vietnam;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #231F20;
+            width: 580px;
+        }
+    }
+
+    .LPSthree-BOTM {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+
+        h1 {
+            font-family: Be Vietnam;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 18px;
+            /* or 150% */
+
+
+            color: #231F20;
+
+            a {
+                font-family: Be Vietnam;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 18px;
+                /* or 150% */
+
+                text-decoration: none;
+
+                color: #0B47F2;
+            }
+        }
+    }
+}
+
+//For Sec4
+.LPSfourMAIN {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .LPSfour-top {
+        padding: 0 160px;
+        width: calc(100vw - 320px);
+        max-width: 1440px;
+        font-family: Be Vietnam;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 41px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #230B59;
+    }
+
+    .LPSfour-Botm {
+        margin: 80px 0;
+        padding: 0 160px;
+        // width: calc(100vw - 320px);
+        width: 100vw;
+        max-width: 1440px;
+        // background-color: red;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row-gap: 132px;
+        justify-content: space-between;
+        // align-items: space-between;
+
+
+        .LPSfour-Botm-Card {
+            width: 270px;
+
+            h1 {
+                font-family: Urbanist;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 18px;
+                /* or 100% */
+
+                display: flex;
+                align-items: center;
+
+                color: #230B59;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+            }
+
+            h2 {
+                font-family: Be Vietnam;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #000000;
+            }
+
+            a {
+
+                font-family: Be Vietnam;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                /* or 129% */
+
+                display: flex;
+                align-items: center;
+
+                color: #0B47F2;
+                text-decoration: none;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+//For Sec5
+.LPSfiveMain {
+    background-color: #230B59;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        margin-top: 42px;
+        font-family: "Urbanist";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    h2 {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        font-family: 'Be Vietnam', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    h3 {
+        margin: 0;
+        padding: 0;
+        margin-top: 25px;
+        font-family: 'Be Vietnam', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 80px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+
+    h4 {
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+        font-family: 'Be Vietnam', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 52px;
+
+        a {
+            margin: 0 5px;
+            color: #0B47F2;
+        }
+    }
+}
+
+//For Sec6
+.LPSsixMAIN {
+    padding: 75px 160px;
+    // width: calc(100vw - 320px);
+    display: flex;
+    min-height: 400px;
+
+
+    .LPSsixMAIN-L {
+        width: 50%;
+        // background-color: red;
+
+        h1 {
+            margin-top: 15px;
+            font-family: Urbanist;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 36px;
+            display: flex;
+            align-items: center;
+
+            color: #000000;
+        }
+
+    }
+
+    .LPSsixMAIN-R {
+        width: 60%;
+
+        // background-color: green;
+        // display: none;
+        .accordion-header {
+            button {
+
+                font-family: Be Vietnam;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 32px;
+                display: flex;
+                align-items: center;
+
+                color: #000000;
+            }
+        }
+
+        .accordion-item {
+            border: none !important;
+        }
+    }
+}
+
+//For Sec7
+
+.LSSsevenMain {
+    width: 100vw;
+    max-width: 1440px;
+    // height: 300px;
+
+    // background-color: red;
+
+    display: flex;
+
+    .LSSsevenMain-Left {
+
+        // background-color: blue;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+
+        .LSSsevenMain-Left-tc {
+            width: 585px;
+            font-family: 'Be Vietnam', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 35px;
+
+            color: #230B59;
+            margin-left: 81px;
+        }
+
+        .reqAbtn {
+            margin-top: 50px;
+            margin-left: 81px;
+            width: 195px;
+            height: 50px;
+            background: #230B59;
+            border-radius: 10px;
+            border: none;
+            //text formating
+            font-family: 'Be Vietnam', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 18px;
+            color: #FFFFFF;
+            letter-spacing: 0.3px;
+            transition: all 0.25s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                background: #633bc0;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+    .LSSsevenMain-Right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        // background-color: gray;
+
+        img {
+            padding-right: 71px;
+        }
+    }
+}
