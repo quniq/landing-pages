@@ -17,7 +17,7 @@
     "react-slick": "^0.28.1",
     "web-vitals": "^2.1.2"
   },
-  "homepage": "https://quniq.github.io/landing-pages",
+  "homepage": "https://berrywise.ai",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
