@@ -27,7 +27,7 @@ const LPStwo = () => {
             <img src={imgO} alt="" />
           </div>
           <div className="LPStwoMAIN-R-Card-R">
-            <h1>Personlized</h1>
+            <h1>Personalized</h1>
             <h2>
               Plan for the future with a strategy that adapts to your financial
               goals and circumstances.
