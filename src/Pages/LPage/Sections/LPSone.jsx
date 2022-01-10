@@ -30,8 +30,8 @@ const LPSone = () => {
         <div className="LPSone-Left-Con">
           <h1>Personalized Investing Simplified</h1>
           <h2>
-            We are the only investment manager you will ever need. We combine
-            complex A.I. algorithms with state-of-the-art technology to build
+            Berrywise is the only investment manager you will ever need. We
+            combine A.I. algorithms with sophisticated risk modelling to build
             tailored investment portfolios.
           </h2>
           <div className="gsBTN">Get Started</div>
@@ -160,7 +160,6 @@ const LPSone = () => {
                 </div>
               </div>
             </div>
-            
           </Slider>
         </div>
 

@@ -3,6 +3,7 @@
     width: 100vw;
     align-items: center;
     max-width: 1440px;
+    position: relative;
 
 
     .headerMain-Con {
@@ -92,7 +93,8 @@
                 font-style: normal;
                 font-weight: normal;
                 font-size: 18px;
-                line-height: 18px;
+                line-height: 16px;
+
                 /* identical to box height, or 100% */
                 /* Light / White */
                 color: #FFFFFF;
@@ -111,5 +113,112 @@
                 }
             }
         }
+    }
+}
+
+.headerMain-Con-right-mob {
+    display: none;
+
+    .hammenu {
+        .hamline {
+            width: 21px;
+            height: 2px;
+            background-color: #230B59;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .headerMain .headerMain-Con {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .headerMain .headerMain-Con .headerMain-Con-mid {
+        display: none;
+    }
+
+    .headerMain .headerMain-Con .headerMain-Con-right {
+        display: none;
+    }
+
+    .headerMain-Con-right-mob {
+        display: flex;
+    }
+}
+
+.h-popup {
+    height: 100vh;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    // background-color: red;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+    background-color: rgba(27, 27, 27, 0.199);
+    backdrop-filter: blur(8px);
+
+    .h-popup-c {
+        position: relative;
+    }
+
+    .crossBtn {
+        position: absolute;
+        right: 40px;
+        top: 10px;
+        cursor: pointer;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: #230B59;
+        font-weight: bold;
+        transition: all 0.25s ease;
+        background-color: #949494;
+
+        .crossBtn-int {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        .cbl1 {
+            position: absolute;
+            top: 50%;
+            left: 36%;
+            transform: translate(-50%, -50%);
+
+            transform: rotate(-45deg);
+            width: 10px;
+            background-color: black;
+            height: 2px;
+        }
+
+        .cbl2 {
+            position: absolute;
+            top: 50%;
+            left: 36%;
+            transform: translate(-50%, -50%);
+            transform: rotate(45deg);
+
+            width: 10px;
+            background-color: black;
+            height: 2px;
+        }
+
+        &:hover {
+            color: #633bc0;
+        }
+    }
+
+    &.active {
+        display: flex;
     }
 }

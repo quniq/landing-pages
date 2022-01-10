@@ -9,26 +9,21 @@
     "bootstrap": "^5.1.3",
     "compound-interest-calc": "^1.0.1",
     "echarts-for-react": "^3.0.2",
-    "gh-pages": "^3.2.3",
     "node-sass": "6",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.3",
     "react-dom": "^17.0.2",
     "react-rangeslider": "^2.2.0",
-    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-slick": "^0.28.1",
     "recharts": "^2.1.8",
     "web-vitals": "^2.1.2"
   },
-  "homepage": "https://berrywise.ai/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

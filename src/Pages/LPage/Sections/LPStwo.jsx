@@ -10,11 +10,11 @@ const LPStwo = () => {
       <div className="LPStwoMAIN-L">
         <h1>Invest like pros!</h1>
         <h2>
-          The best returns come from investment strategies that are tailored and
-          "wired" to our clients' nervous systems, not their pocketbooks.
-          Combining proprietary investment strategies with artificial
-          intelligence and unique human insight, Berrywise brings out the "wise
-          investor" in everybody.
+          The best returns come from investment strategies that are tailored to
+          our clients' nervous systems, not their pocketbooks. Combining
+          proprietary investment strategies with artificial intelligence and
+          unique human insight, Berrywise brings out the wise investor in
+          everybody.
         </h2>
         <a href="#">Learn More</a>
       </div>
@@ -27,7 +27,7 @@ const LPStwo = () => {
             <img src={imgO} alt="" />
           </div>
           <div className="LPStwoMAIN-R-Card-R">
-            <h1>Personalized</h1>
+            <h1>Personlized</h1>
             <h2>
               Plan for the future with a strategy that adapts to your financial
               goals and circumstances.
@@ -45,7 +45,7 @@ const LPStwo = () => {
           <div className="LPStwoMAIN-R-Card-R">
             <h1>A.I. driven</h1>
             <h2>
-              algorithms learns the patterns that drive markets, understand
+              Our algorithms learns the patterns that drive markets, understand
               inherent market risks and analyse historical behavior.
             </h2>
             <a href="#">Learn More</a>

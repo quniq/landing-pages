@@ -166,21 +166,20 @@ const LPSthree = () => {
       <div className="LPSthree-Top">
         <h1>Smart Investing, Starts here!</h1>
         <h3>
-          Find out why personalizing your investment is better than ‘Made for
-          everyone’ Mutual Funds and ETFs.
+        Find out why personalizing your investment is better than ‘made for everyone’ Mutual Funds
         </h3>
       </div>
       <div className="LPSthree-BOTM">
         <div className="LPSthree-BOTM-topINV">
           <h1>Investment Amount</h1>
-          <h2>${invCount}</h2>
+          <h2>₹{invCount}</h2>
         </div>
         <div className="LPSthree-BOTM-Slider">
           <img onClick={handleMinv} className="btnIMG" src={minus} alt="" />
           <div className="LPSthree-BOTM-Slider-Con">
             <Slider
-              min={1}
-              max={10000}
+              min={250000}
+              max={2500000}
               onChange={handleChangeInvestment}
               // labels={{ 15: '15', 61: 'Above 60' }}
               value={invCount}
@@ -196,19 +195,19 @@ const LPSthree = () => {
                 <div className="tmfCC"></div>
                 <h1>Typical Mutual Fund</h1>
               </div>
-              <h2>$ {mfD.year11}</h2>
+              <h2>₹  {mfD.year11}</h2>
             </div>
             <div className="LPSthree-BOTM-Data-Con">
               <div className="LPSthree-BOTM-Data-Con-line">
                 <div className="bwCC"></div>
                 <h1>Personalized portfolio by Berrywise</h1>
               </div>
-              <h2>$ {bwD.year11}</h2>
+              <h2>₹ {bwD.year11}</h2>
             </div>
           </div>
           <DoubleBarChart pdata={data} />
         </div>
-        {/*
+        {/* 
         <div className="demoTST">
           <button onClick={handleCalc}>CALC</button>
           <h1>output : {mfD.year1} </h1>

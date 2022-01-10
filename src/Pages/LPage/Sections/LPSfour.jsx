@@ -5,12 +5,13 @@ const LPSfour = () => {
     <div className="LPSfourMAIN">
       <div className="LPSfour-top">Why berrywise?</div>
       <div className="LPSfour-Botm">
+       
         {/* CARD START */}
         <div className="LPSfour-Botm-Card">
           <h1>Built for you</h1>
           <h2>
-            Made easy for anyone to assess their risk and Investment goals,
-            create multiple portfolios with different risk profiles and goals
+            Made easy for anyone to assess their risk profile, create multiple
+            portfolios with varying risk profiles and investment goals
           </h2>
           <a href="#">Learn More</a>
         </div>
@@ -53,28 +54,31 @@ const LPSfour = () => {
 
         {/* CARD START */}
         <div className="LPSfour-Botm-Card">
-          <h1>Advance analytics</h1>
+          <h1>More than equities</h1>
           <h2>
-            Get in-depth report of your portfolios health in an instant, analyse
-            your risk vs market state and more than 25+ metrics to help you
-            assess better.
+            Portfolios diversified with various asset universes like debt,
+            low-cost funds, options and even crypto, not just equities, get best
+            of all worlds.
           </h2>
-          <a href="#">Learn More</a>
+          <a href="#">Coming soon!</a>
         </div>
         {/* CARD END */}
 
         {/* CARD START */}
         <div className="LPSfour-Botm-Card">
-          <h1>Advance analytics</h1>
+          <h1>Institutional grade strategies</h1>
           <h2>
-            Get in-depth report of your portfolios health in an instant, analyse
-            your risk vs market state and more than 25+ metrics to help you
-            assess better.
+            Are you a sophisticated investor?, use institutional grade
+            strategies to hedge portfolios, build tactical portfolios or your
+            own thematic portfolio.
           </h2>
-          <a href="#">Learn More</a>
+          <a href="#">Coming soon!</a>
         </div>
         {/* CARD END */}
       </div>
+      {/* <div className="btnAni">
+        Blehhh
+      </div> */}
     </div>
   )
 }
